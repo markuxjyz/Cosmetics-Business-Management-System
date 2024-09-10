@@ -39,6 +39,7 @@ CREATE TABLE Payments (
 );
 
 CREATE TABLE Inventory (
+  InventoryID INT,
   ProductID INT,
   Quantity INT,
   ReorderLevel INT,
